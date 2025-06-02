@@ -15,7 +15,7 @@ CRITICAL_BATTERY = 20  # percent
 
 # === Connect to Vehicle ===
 print("Connecting to vehicle...")
-vehicle = connect('COM3', baud=57600, wait_ready=True)  # Replace with your port
+vehicle = connect('COM3', baud=57600, wait_ready=True)  # make sure to check my port
 
 # === OpenCV Camera Feed ===
 cap = cv2.VideoCapture(0)
